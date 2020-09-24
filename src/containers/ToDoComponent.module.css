@@ -1,0 +1,32 @@
+.ToDoComponent {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.AvailableItems{
+    /* display: none; */
+}
+
+.AddNewItem{
+    
+}
+
+.HideComponent{
+    display: none;
+}
+
+.HeaderTextAlign{
+    text-align: center;
+}
+
+.CardALignment{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 500px) {
+    .ToDoComponent {
+        width: calc(100% - 280px);
+        margin-left: 280px;
+    }
+}

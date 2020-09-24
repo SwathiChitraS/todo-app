@@ -1,0 +1,21 @@
+.Card {
+    -webkit-box-shadow: 0px 0px 12px 10px rgba(181, 181, 181, 0.19);
+    -moz-box-shadow: 0px 0px 12px 10px rgba(181, 181, 181, 0.19);
+    box-shadow: 0px 0px 12px 10px rgba(181, 181, 181, 0.19);
+    padding: 8px;
+    /* margin: 11vh 25% 11vh 25%; */
+    /* background-color: #cbedf3; */
+    background-color: #ebeeef;
+    width: 100%;
+    height: calc(100vh - 53px);
+    overflow: auto;
+    /* border-radius: 8px; */
+    box-sizing: border-box;
+}
+
+@media (min-width: 500px) {
+    .Card {
+        /* margin: 8vh 25% 8vh 25%; */
+        /* width: 100%; */
+    }
+}

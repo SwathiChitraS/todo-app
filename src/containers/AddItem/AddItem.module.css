@@ -1,0 +1,39 @@
+.AddItem {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.ButtonAlign{
+    display: flex;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    justify-content: center;
+}
+
+.MarginPadding{
+    
+}
+
+.Show{
+    display: block;
+    margin: unset;
+    white-space: pre-wrap;
+    color: red;
+    background-color: #fa80726b;
+}
+
+.Show h4{
+    margin: unset;
+    padding: unset;
+}
+
+.Hide{
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .AddItem {
+        width: calc(100% - 280px);
+        margin-left: 280px;
+    }
+}
